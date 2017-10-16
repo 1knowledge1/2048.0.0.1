@@ -160,8 +160,8 @@ void fill()
 void rand_fill()
 {
     srand(time(NULL));
-    for(int i =0; i <= rand()%3; i++) if(rand()%2 == 0) area[rand()%4][rand()%4]=2;
-    for(int i =0; i <= rand()%2; i++)if(rand()%4 == 0) area[rand()%4][rand()%4]=4;
+    for(int i =0; i <= rand()%100; i++) if(rand()%2 == 0) area[rand()%4][rand()%4]=2;
+    for(int i =0; i <= rand()%100; i++)if(rand()%4 == 0) area[rand()%4][rand()%4]=4;
 }
 int main() {
 
